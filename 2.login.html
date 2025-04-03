@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <meta charset="utf-8" />    //指定頁面使用 UTF-8 編碼
+        <title>登入範例</title>     //標題
+    </head>
+    <body>
+        <form method=post action="2.login.php">    //用post的方式，然後傳到2.login.php
+            帳號：<input type=text name="id"><br />  //帳號的輸入以文字輸入框的方式，名字是id
+            密碼：<input type=password name="pwd"><p></p>   //密碼的輸入以密碼輸入框的方式，名字是pwd
+            <input type=submit value="登入"> <input type=reset value="清除">  //建立登入與清除的按鈕，按下後，表單內容會送出與清空所有輸入欄位
+            
+        </form>
+    </body>
+</html>
